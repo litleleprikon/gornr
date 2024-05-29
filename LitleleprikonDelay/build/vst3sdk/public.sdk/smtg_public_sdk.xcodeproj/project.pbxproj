@@ -1,0 +1,1165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7392D262E57C4168A910D68C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBEC7F24D2F54555AA9B82E9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B382F372A7FFB2056776FEBB /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				BBDE8FD9BAF04EB1840BDB46 /* PBXTargetDependency */,
+				DAB05A176E9C4BF2926BE6B8 /* PBXTargetDependency */,
+				7E70221F41544F0C97766A8E /* PBXTargetDependency */,
+				8C20D2E4788142BB8873DFC2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		74AEBB7C8C75486E8FD584C2 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C60E5921C7F48F9973DE2B3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8194E74ABEFE2ED030A4658C /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		007A4B86CA2A455A987DE509 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D68D97108C4E4D9ABC8C1248 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */; };
+		0A3DDFCA4B7B42B099C390C7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h */ = {isa = PBXBuildFile; fileRef = EA20FD3503DE42439C84DEED /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h */; };
+		0BDC4F0B963E48729601831C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */ = {isa = PBXBuildFile; fileRef = 9B5FAA9328E54486958DAE89 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */; };
+		0C89CC2CE86C43AD9C4E6AAE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */ = {isa = PBXBuildFile; fileRef = 698203A89F934A1D868174E8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */; };
+		12AE1437DEE04B23BED64AFC /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.cpp */ = {isa = PBXBuildFile; fileRef = 2D7FE4B25A164C8E81A5AF9A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.cpp */; };
+		1564FBC38C1843C5B58006C2 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */ = {isa = PBXBuildFile; fileRef = 445417E39CDE4CBE86F3A054 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */; };
+		20E49DE77B7A4A608FC3252B /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.h */ = {isa = PBXBuildFile; fileRef = 77900D5AC7CF45DDAEE11D5F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.h */; };
+		21EE23414E2A4F2E8994AEAE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXBuildFile; fileRef = 4D2C046744054C98BDC3FE8E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */; };
+		22E6C433F9CC45399AF5A620 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.cpp */ = {isa = PBXBuildFile; fileRef = B134285B5AA842A2B53F4EE3 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.cpp */; };
+		2305DED1D3944EA8AC957B82 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.h */ = {isa = PBXBuildFile; fileRef = 9587B952AF784F5AB0AC693A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.h */; };
+		23BCBF5523044A1FA2A3B7C1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.h */ = {isa = PBXBuildFile; fileRef = A1BDC13D731642D482D366C7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.h */; };
+		24F71C78450C4220B4DB859A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/versionparser.h */ = {isa = PBXBuildFile; fileRef = D516752CB66A4036B51853D2 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/versionparser.h */; };
+		2B99C301B98847B8B00ED84A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.cpp */ = {isa = PBXBuildFile; fileRef = 8E4C8CCB69C341DD99B33EC7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.cpp */; };
+		2CDA9C962FD24F42992C78A1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */ = {isa = PBXBuildFile; fileRef = AD238EA0213240D3B3698C06 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */; };
+		2D4947F4218545D58ACA436B /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */ = {isa = PBXBuildFile; fileRef = 1E233568FA6E49428FA7E001 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */; };
+		35894B5D02F442328298BE82 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */ = {isa = PBXBuildFile; fileRef = 77CA100DCA764158BDB08DDD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */; };
+		3702E9ACBEAA4535A29A1126 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/processdataslicer.h */ = {isa = PBXBuildFile; fileRef = FEE32DD1FF964F228736A32F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/processdataslicer.h */; };
+		3BC2FB3D50BA4516AD8D81BF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.h */ = {isa = PBXBuildFile; fileRef = A068671991D041B4B833A3DF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.h */; };
+		46D469F21EF04B5E86A51398 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */ = {isa = PBXBuildFile; fileRef = C7BCB2B35E5B4D17919A3618 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */; };
+		47D66AD8FF7D4A8C986A4C78 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.h */ = {isa = PBXBuildFile; fileRef = C621F12645AD4E9387BBF8DE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.h */; };
+		4CC6EBB1F8D343808D45DB23 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.h */ = {isa = PBXBuildFile; fileRef = 91CCEAFEE32648EC8382B381 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.h */; };
+		4E64E8905D034272BC4B21D0 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.h */ = {isa = PBXBuildFile; fileRef = 1C3F266CCD4F4907B7B30C22 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.h */; };
+		509E18FA67F84933B089BCAC /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.cpp */ = {isa = PBXBuildFile; fileRef = EF22A7F6117C48328A956910 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.cpp */; };
+		5711B14C5ED341569118405C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/sampleaccurate.h */ = {isa = PBXBuildFile; fileRef = 702C81D8B72640E6B49D2ACD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/sampleaccurate.h */; };
+		576DABABE93142B481692C1E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/memoryibstream.h */ = {isa = PBXBuildFile; fileRef = DC47BBA056A14911977520D1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/memoryibstream.h */; };
+		583B7CBBB034420B9AF89E7A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.h */ = {isa = PBXBuildFile; fileRef = 08623CABCDA5458BBFFDBF94 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.h */; };
+		5876327799F94AF6BEBCC755 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */ = {isa = PBXBuildFile; fileRef = CC9BFCD3D5E8407AA85A0850 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */; };
+		593897B2164E44A8B2E73684 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.h */ = {isa = PBXBuildFile; fileRef = CB7DA72CC3E045E1808111BD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.h */; };
+		5A2870CD7C1A449C8252A590 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.cpp */ = {isa = PBXBuildFile; fileRef = 8E034A81E911413CA81BFB81 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.cpp */; };
+		5C6ED3BB2F314FD9B56A54D4 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.h */ = {isa = PBXBuildFile; fileRef = 0C830FB7AD4D48D597BC97BF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.h */; };
+		5E26902A7F6E42539EBE4437 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbypassprocessor.h */ = {isa = PBXBuildFile; fileRef = 5F4509A8ACF6479AA1112D5C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbypassprocessor.h */; };
+		604F034C98DC4AFE81E2C835 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker.h */ = {isa = PBXBuildFile; fileRef = 8E5386040D51467DBFADF097 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker.h */; };
+		60F26D71E3254A2BBB06E71D /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h */ = {isa = PBXBuildFile; fileRef = A02B63CE2B20479CA7FD56DB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h */; };
+		6D2B05A124C24CCE94D3CB56 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXBuildFile; fileRef = 98C0F06827BD4BF78577F7C8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */; };
+		6DB4867903454997AED7FC7C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.cpp */ = {isa = PBXBuildFile; fileRef = 764E46871D334F66BAC57546 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.cpp */; };
+		6EEFEB256E6A40109DF426AD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/audiobuffers.h */ = {isa = PBXBuildFile; fileRef = AF76F7A3B36D49E99D3ADB78 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/audiobuffers.h */; };
+		71E8641055AC4E8EAB7D92D3 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.h */ = {isa = PBXBuildFile; fileRef = E317A2AE572F4DAD8D7B7DB1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.h */; };
+		760B1CC4666D49D08F0BFBEA /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXBuildFile; fileRef = 9C24BFCC4F4247A18C9E6FF6 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */; };
+		77E152FC8284446E8C783BF4 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */ = {isa = PBXBuildFile; fileRef = 99BDC6CA18084E94AEBC0241 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */; };
+		7E07F661B1C544FBBFD223D1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */ = {isa = PBXBuildFile; fileRef = F457D7A5EE7B4208BE1828B8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */; };
+		802C6E45845F4C0FB02916BE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.cpp */ = {isa = PBXBuildFile; fileRef = CC0389D8DC8041D890434772 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.cpp */; };
+		81B6D30C67DE4A01AD38A3B5 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.h */ = {isa = PBXBuildFile; fileRef = 0571DF57755D4C6A979EF422 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.h */; };
+		87DE7975C2D242B8999AACCB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */ = {isa = PBXBuildFile; fileRef = DC63AE27B73C4F67BAA50FE0 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */; };
+		89AF9E31178D4DF59A6C0468 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */ = {isa = PBXBuildFile; fileRef = AA41E5AB52DC4419B6EE4449 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */; };
+		8C7DE03A44B74CCE8A00AF63 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.h */ = {isa = PBXBuildFile; fileRef = 05A03C4235254993A7B1F704 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.h */; };
+		9077EE374C364A9E979EC692 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXBuildFile; fileRef = A47D824EAF7B4D8899248757 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */; };
+		91E302BE4CEB467D98D3D177 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */ = {isa = PBXBuildFile; fileRef = 305D66AA8A584EB197B007CA /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */; };
+		936399F4905E4487B3A764A5 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h */ = {isa = PBXBuildFile; fileRef = EC3E2D43301A4EBEA6C5FAE8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h */; };
+		97789E0EB7734308808DEB15 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.h */ = {isa = PBXBuildFile; fileRef = 586C2693D0424FEF8EF880C7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.h */; };
+		98BB814173AA4BA1A46D1914 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/rttransfer.h */ = {isa = PBXBuildFile; fileRef = 12328C3C0A4B4110BB2AFD39 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/rttransfer.h */; };
+		98F52B1281434FE99F451EE3 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */ = {isa = PBXBuildFile; fileRef = A88C508C07F149BD9048C1D0 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */; };
+		9B9274E8CF6D4E87AD48C72F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.h */ = {isa = PBXBuildFile; fileRef = 087E72CE1EDA4F85B0CD0657 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.h */; };
+		9E2A05E9A5DF4A898DF7BA6A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.cpp */ = {isa = PBXBuildFile; fileRef = 4C89E5BE02C84F439D7D7297 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.cpp */; };
+		9F317B3C1EE040E2914BC78F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ABDCAB97DBCD466582E9D20C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */; };
+		A1B63DF62E6B4224B8B8361D /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/ringbuffer.h */ = {isa = PBXBuildFile; fileRef = DD4BEBAD4C7E4A66A9D25B7A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/ringbuffer.h */; };
+		A3FEBD632E3A41A799B126B4 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.h */ = {isa = PBXBuildFile; fileRef = DD266C65A6AD4235A8C14A56 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.h */; };
+		A5DBF427A1694C8AB5A72EEA /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.cpp */ = {isa = PBXBuildFile; fileRef = 8192698F8B2044108BBDC0FE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.cpp */; };
+		A63610EB5D314CB3AC48456E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */ = {isa = PBXBuildFile; fileRef = E47CB9B423CE40158B9FDD77 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */; };
+		A6BF66212D864D3891ED930B /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXBuildFile; fileRef = 2B47F65E3A1345C6989B77B1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */; };
+		AA569258E8804631A09C085A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteventshelper.h */ = {isa = PBXBuildFile; fileRef = 3C7AF14EE71D4728949633D1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteventshelper.h */; };
+		AEA09979199743028DB8FC0B /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.h */ = {isa = PBXBuildFile; fileRef = 5C681E92F7E0496A99DAC38E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.h */; };
+		B3A819CE8F364594B81DB319 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */ = {isa = PBXBuildFile; fileRef = 26994FBE2337447CAD689F07 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */; };
+		B421D9DDC26A4D7181119BE4 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */ = {isa = PBXBuildFile; fileRef = 5E8F72DB09184AB49BB6D6DF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */; };
+		BADC874A8FB3458AB0F4D2D9 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */ = {isa = PBXBuildFile; fileRef = C355C6F763CC4CB1BD8F7159 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */; };
+		BB6E95C6FB5B4DB8AF5C9D17 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.cpp */ = {isa = PBXBuildFile; fileRef = BA85BD4157EA42DAA5C6EC66 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.cpp */; };
+		BC0A18757E5F4BCDB8D7DBC3 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h */ = {isa = PBXBuildFile; fileRef = F9BA75BC63EB433EA440E265 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h */; };
+		BF42F96AD18E4E029AC923C4 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/optional.h */ = {isa = PBXBuildFile; fileRef = 1847B5A22350430D842192A1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/optional.h */; };
+		C117E118CFD345FEAD2D8CA9 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h */ = {isa = PBXBuildFile; fileRef = 43CAB205DD9143A99E546616 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h */; };
+		C2D04E655A2C4FEAB436B3A7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard.h */ = {isa = PBXBuildFile; fileRef = A12B670000DD485583D5F940 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard.h */; };
+		C4C63259A1EB4597B6037115 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CF4EDCC49B014EE285B074D2 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */; };
+		CCF4833F921C454F926A0FAC /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.h */ = {isa = PBXBuildFile; fileRef = CCEDEE25CF574207940A0E81 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.h */; };
+		D63B2383E8F4492F9580AF76 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.h */ = {isa = PBXBuildFile; fileRef = DB4ABF115E7F47B9B6F8ACDD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.h */; };
+		E499BA7E5A384B32A92BCB2E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/alignedalloc.h */ = {isa = PBXBuildFile; fileRef = 4FAFE9E0C510497596DC8C3A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/alignedalloc.h */; };
+		E801FB2E116B40B88410FADB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.h */ = {isa = PBXBuildFile; fileRef = 73779550EB414CE7A2D5EDB5 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.h */; };
+		E99B829DF2174EB8B2E1A446 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory_constexpr.h */ = {isa = PBXBuildFile; fileRef = 1808C8E4D0764F26B619C50F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory_constexpr.h */; };
+		F1CBFB41222A4D97861C59CC /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.h */ = {isa = PBXBuildFile; fileRef = A2894DDDDFC94FD09C506401 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.h */; };
+		F209ACF0F09E48839DC678C6 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.cpp */ = {isa = PBXBuildFile; fileRef = 205B7F881ADB44BBB0AC86DB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.cpp */; };
+		F2CB18E4B1304E1B9E5DE96D /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_linux.cpp */ = {isa = PBXBuildFile; fileRef = A892A3E7ACA140A3A27671A5 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_linux.cpp */; };
+		F3094E8FF04B4FB7AF254EA8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/uid.h */ = {isa = PBXBuildFile; fileRef = 6F4E5B7FD66343D1B70BE21A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/uid.h */; };
+		F48A3C832CB647A5AFE6C0D8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/commoniids.cpp */ = {isa = PBXBuildFile; fileRef = 5962B403B86248DC99533486 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/commoniids.cpp */; };
+		F6918544767841D496D03D29 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXBuildFile; fileRef = CE24C0C8FE664EABA1740AB8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */; };
+		F900320A17F0467F8BDB043B /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */ = {isa = PBXBuildFile; fileRef = 832D38B0BAF0456994A20485 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */; };
+		FACCC6678CE84D6195BBD819 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsthelpers.h */ = {isa = PBXBuildFile; fileRef = 178ECB4D87464BB1AB9FEE7C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsthelpers.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		40113B10E76E467B86FF582C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		96BD466A7167457E90A26F62 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		127835C9CAA7425884317D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2CB799B10149C4837D31BF;
+			remoteInfo = sdk;
+		};
+		17693967C73343E3965B9F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FCCE18181D34A919F4F955E;
+			remoteInfo = sdk_common;
+		};
+		2AC337B4C591471391438008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AEBB7C8C75486E8FD584C2;
+			remoteInfo = ZERO_CHECK;
+		};
+		35950603FBEF472D9EA4AE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AEBB7C8C75486E8FD584C2;
+			remoteInfo = ZERO_CHECK;
+		};
+		4D632A63EF86477889EE40F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FCCE18181D34A919F4F955E;
+			remoteInfo = sdk_common;
+		};
+		5F88569F08FF4F56B56D9E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AEBB7C8C75486E8FD584C2;
+			remoteInfo = ZERO_CHECK;
+		};
+		A4CD2D5124684BBFB7B4CA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13C117CE1BFA4CA2AEF2D62D;
+			remoteInfo = sdk_hosting;
+		};
+		BF3AF265174D43089EDEC51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FCCE18181D34A919F4F955E;
+			remoteInfo = sdk_common;
+		};
+		F5D170AB270748D8BD15C2F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AEBB7C8C75486E8FD584C2;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0571DF57755D4C6A979EF422 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = testing.h; path = source/vst/utility/testing.h; sourceTree = SOURCE_ROOT; };
+		05A03C4235254993A7B1F704 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstcomponent.h; path = source/vst/vstcomponent.h; sourceTree = SOURCE_ROOT; };
+		08623CABCDA5458BBFFDBF94 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstcomponentbase.h; path = source/vst/vstcomponentbase.h; sourceTree = SOURCE_ROOT; };
+		087E72CE1EDA4F85B0CD0657 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstbus.h; path = source/vst/vstbus.h; sourceTree = SOURCE_ROOT; };
+		0C830FB7AD4D48D597BC97BF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = moduleinit.h; path = source/main/moduleinit.h; sourceTree = SOURCE_ROOT; };
+		119DC666E56E4F46B2F58471 /* sdk */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		12328C3C0A4B4110BB2AFD39 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/rttransfer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rttransfer.h; path = source/vst/utility/rttransfer.h; sourceTree = SOURCE_ROOT; };
+		178ECB4D87464BB1AB9FEE7C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsthelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsthelpers.h; path = source/vst/vsthelpers.h; sourceTree = SOURCE_ROOT; };
+		1808C8E4D0764F26B619C50F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory_constexpr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginfactory_constexpr.h; path = source/main/pluginfactory_constexpr.h; sourceTree = SOURCE_ROOT; };
+		1847B5A22350430D842192A1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/optional.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = optional.h; path = source/vst/utility/optional.h; sourceTree = SOURCE_ROOT; };
+		1C3F266CCD4F4907B7B30C22 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vst2persistence.h; path = source/vst/utility/vst2persistence.h; sourceTree = SOURCE_ROOT; };
+		1E233568FA6E49428FA7E001 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstcomponent.cpp; path = source/vst/vstcomponent.cpp; sourceTree = SOURCE_ROOT; };
+		205B7F881ADB44BBB0AC86DB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = moduleinit.cpp; path = source/main/moduleinit.cpp; sourceTree = SOURCE_ROOT; };
+		26994FBE2337447CAD689F07 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parameterchanges.cpp; path = source/vst/hosting/parameterchanges.cpp; sourceTree = SOURCE_ROOT; };
+		2B47F65E3A1345C6989B77B1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stringconvert.h; path = source/vst/utility/stringconvert.h; sourceTree = SOURCE_ROOT; };
+		2BA3AF10384147099048F391 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2D7FE4B25A164C8E81A5AF9A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstbus.cpp; path = source/vst/vstbus.cpp; sourceTree = SOURCE_ROOT; };
+		305D66AA8A584EB197B007CA /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threadchecker_linux.cpp; path = source/common/threadchecker_linux.cpp; sourceTree = SOURCE_ROOT; };
+		3C7AF14EE71D4728949633D1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteventshelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsteventshelper.h; path = source/vst/vsteventshelper.h; sourceTree = SOURCE_ROOT; };
+		43CAB205DD9143A99E546616 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hostclasses.h; path = source/vst/hosting/hostclasses.h; sourceTree = SOURCE_ROOT; };
+		445417E39CDE4CBE86F3A054 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = connectionproxy.cpp; path = source/vst/hosting/connectionproxy.cpp; sourceTree = SOURCE_ROOT; };
+		4C89E5BE02C84F439D7D7297 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstparameters.cpp; path = source/vst/vstparameters.cpp; sourceTree = SOURCE_ROOT; };
+		4D2C046744054C98BDC3FE8E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stringconvert.h; path = source/vst/utility/stringconvert.h; sourceTree = SOURCE_ROOT; };
+		4FAFE9E0C510497596DC8C3A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/alignedalloc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = alignedalloc.h; path = source/vst/utility/alignedalloc.h; sourceTree = SOURCE_ROOT; };
+		53DD38700B8B4F448B7DC056 /* sdk_hosting */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk_hosting.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		586C2693D0424FEF8EF880C7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginfactory.h; path = source/main/pluginfactory.h; sourceTree = SOURCE_ROOT; };
+		5962B403B86248DC99533486 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/commoniids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = commoniids.cpp; path = source/common/commoniids.cpp; sourceTree = SOURCE_ROOT; };
+		5C681E92F7E0496A99DAC38E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginview.h; path = source/common/pluginview.h; sourceTree = SOURCE_ROOT; };
+		5E8F72DB09184AB49BB6D6DF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hostclasses.cpp; path = source/vst/hosting/hostclasses.cpp; sourceTree = SOURCE_ROOT; };
+		5F4509A8ACF6479AA1112D5C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbypassprocessor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstbypassprocessor.h; path = source/vst/vstbypassprocessor.h; sourceTree = SOURCE_ROOT; };
+		698203A89F934A1D868174E8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = threadchecker_win32.cpp; path = source/common/threadchecker_win32.cpp; sourceTree = SOURCE_ROOT; };
+		6F4E5B7FD66343D1B70BE21A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/uid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = uid.h; path = source/vst/utility/uid.h; sourceTree = SOURCE_ROOT; };
+		702C81D8B72640E6B49D2ACD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/sampleaccurate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sampleaccurate.h; path = source/vst/utility/sampleaccurate.h; sourceTree = SOURCE_ROOT; };
+		73779550EB414CE7A2D5EDB5 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = openurl.h; path = source/common/openurl.h; sourceTree = SOURCE_ROOT; };
+		764E46871D334F66BAC57546 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginview.cpp; path = source/common/pluginview.cpp; sourceTree = SOURCE_ROOT; };
+		77900D5AC7CF45DDAEE11D5F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processdata.h; path = source/vst/hosting/processdata.h; sourceTree = SOURCE_ROOT; };
+		77CA100DCA764158BDB08DDD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = systemclipboard_win32.cpp; path = source/common/systemclipboard_win32.cpp; sourceTree = SOURCE_ROOT; };
+		8192698F8B2044108BBDC0FE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dataexchange.cpp; path = source/vst/utility/dataexchange.cpp; sourceTree = SOURCE_ROOT; };
+		832D38B0BAF0456994A20485 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstnoteexpressiontypes.cpp; path = source/vst/vstnoteexpressiontypes.cpp; sourceTree = SOURCE_ROOT; };
+		8E034A81E911413CA81BFB81 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = systemtime.cpp; path = source/vst/utility/systemtime.cpp; sourceTree = SOURCE_ROOT; };
+		8E4C8CCB69C341DD99B33EC7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = readfile.cpp; path = source/common/readfile.cpp; sourceTree = SOURCE_ROOT; };
+		8E5386040D51467DBFADF097 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = threadchecker.h; path = source/common/threadchecker.h; sourceTree = SOURCE_ROOT; };
+		91CCEAFEE32648EC8382B381 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dataexchange.h; path = source/vst/utility/dataexchange.h; sourceTree = SOURCE_ROOT; };
+		9587B952AF784F5AB0AC693A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstrepresentation.h; path = source/vst/vstrepresentation.h; sourceTree = SOURCE_ROOT; };
+		98C0F06827BD4BF78577F7C8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringconvert.cpp; path = source/vst/utility/stringconvert.cpp; sourceTree = SOURCE_ROOT; };
+		99BDC6CA18084E94AEBC0241 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vsteditcontroller.cpp; path = source/vst/vsteditcontroller.cpp; sourceTree = SOURCE_ROOT; };
+		9B5FAA9328E54486958DAE89 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginterfacesupport.cpp; path = source/vst/hosting/pluginterfacesupport.cpp; sourceTree = SOURCE_ROOT; };
+		9C24BFCC4F4247A18C9E6FF6 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstinitiids.cpp; path = source/vst/vstinitiids.cpp; sourceTree = SOURCE_ROOT; };
+		A02B63CE2B20479CA7FD56DB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = parameterchanges.h; path = source/vst/hosting/parameterchanges.h; sourceTree = SOURCE_ROOT; };
+		A068671991D041B4B833A3DF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstnoteexpressiontypes.h; path = source/vst/vstnoteexpressiontypes.h; sourceTree = SOURCE_ROOT; };
+		A12B670000DD485583D5F940 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = systemclipboard.h; path = source/common/systemclipboard.h; sourceTree = SOURCE_ROOT; };
+		A1BDC13D731642D482D366C7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = readfile.h; path = source/common/readfile.h; sourceTree = SOURCE_ROOT; };
+		A2894DDDDFC94FD09C506401 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vsteditcontroller.h; path = source/vst/vsteditcontroller.h; sourceTree = SOURCE_ROOT; };
+		A47D824EAF7B4D8899248757 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstinitiids.cpp; path = source/vst/vstinitiids.cpp; sourceTree = SOURCE_ROOT; };
+		A88C508C07F149BD9048C1D0 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstaudioeffect.cpp; path = source/vst/vstaudioeffect.cpp; sourceTree = SOURCE_ROOT; };
+		A892A3E7ACA140A3A27671A5 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_linux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = systemclipboard_linux.cpp; path = source/common/systemclipboard_linux.cpp; sourceTree = SOURCE_ROOT; };
+		AA41E5AB52DC4419B6EE4449 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eventlist.cpp; path = source/vst/hosting/eventlist.cpp; sourceTree = SOURCE_ROOT; };
+		ABDCAB97DBCD466582E9D20C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AD238EA0213240D3B3698C06 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vst2persistence.cpp; path = source/vst/utility/vst2persistence.cpp; sourceTree = SOURCE_ROOT; };
+		AF76F7A3B36D49E99D3ADB78 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/audiobuffers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = audiobuffers.h; path = source/vst/utility/audiobuffers.h; sourceTree = SOURCE_ROOT; };
+		B134285B5AA842A2B53F4EE3 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = openurl.cpp; path = source/common/openurl.cpp; sourceTree = SOURCE_ROOT; };
+		BA85BD4157EA42DAA5C6EC66 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluginfactory.cpp; path = source/main/pluginfactory.cpp; sourceTree = SOURCE_ROOT; };
+		BDB3FCD09CA84301B4851F4E /* sdk_common */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libsdk_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C355C6F763CC4CB1BD8F7159 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = threadchecker_mac.mm; path = source/common/threadchecker_mac.mm; sourceTree = SOURCE_ROOT; };
+		C621F12645AD4E9387BBF8DE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = eventlist.h; path = source/vst/hosting/eventlist.h; sourceTree = SOURCE_ROOT; };
+		C7BCB2B35E5B4D17919A3618 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstcomponentbase.cpp; path = source/vst/vstcomponentbase.cpp; sourceTree = SOURCE_ROOT; };
+		CB7DA72CC3E045E1808111BD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = systemtime.h; path = source/vst/utility/systemtime.h; sourceTree = SOURCE_ROOT; };
+		CC0389D8DC8041D890434772 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = module.cpp; path = source/vst/hosting/module.cpp; sourceTree = SOURCE_ROOT; };
+		CC9BFCD3D5E8407AA85A0850 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = processdata.cpp; path = source/vst/hosting/processdata.cpp; sourceTree = SOURCE_ROOT; };
+		CCEDEE25CF574207940A0E81 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstpresetfile.h; path = source/vst/vstpresetfile.h; sourceTree = SOURCE_ROOT; };
+		CE24C0C8FE664EABA1740AB8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringconvert.cpp; path = source/vst/utility/stringconvert.cpp; sourceTree = SOURCE_ROOT; };
+		CF4EDCC49B014EE285B074D2 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D516752CB66A4036B51853D2 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/versionparser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = versionparser.h; path = source/vst/utility/versionparser.h; sourceTree = SOURCE_ROOT; };
+		D68D97108C4E4D9ABC8C1248 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DB4ABF115E7F47B9B6F8ACDD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = module.h; path = source/vst/hosting/module.h; sourceTree = SOURCE_ROOT; };
+		DC47BBA056A14911977520D1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/memoryibstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = memoryibstream.h; path = source/vst/utility/memoryibstream.h; sourceTree = SOURCE_ROOT; };
+		DC63AE27B73C4F67BAA50FE0 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstpresetfile.cpp; path = source/vst/vstpresetfile.cpp; sourceTree = SOURCE_ROOT; };
+		DD266C65A6AD4235A8C14A56 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstaudioeffect.h; path = source/vst/vstaudioeffect.h; sourceTree = SOURCE_ROOT; };
+		DD4BEBAD4C7E4A66A9D25B7A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/ringbuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ringbuffer.h; path = source/vst/utility/ringbuffer.h; sourceTree = SOURCE_ROOT; };
+		E317A2AE572F4DAD8D7B7DB1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vstparameters.h; path = source/vst/vstparameters.h; sourceTree = SOURCE_ROOT; };
+		E47CB9B423CE40158B9FDD77 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = systemclipboard_mac.mm; path = source/common/systemclipboard_mac.mm; sourceTree = SOURCE_ROOT; };
+		EA20FD3503DE42439C84DEED /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = connectionproxy.h; path = source/vst/hosting/connectionproxy.h; sourceTree = SOURCE_ROOT; };
+		EC3E2D43301A4EBEA6C5FAE8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processcontextrequirements.h; path = source/vst/utility/processcontextrequirements.h; sourceTree = SOURCE_ROOT; };
+		EF22A7F6117C48328A956910 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = testing.cpp; path = source/vst/utility/testing.cpp; sourceTree = SOURCE_ROOT; };
+		F457D7A5EE7B4208BE1828B8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vstrepresentation.cpp; path = source/vst/vstrepresentation.cpp; sourceTree = SOURCE_ROOT; };
+		F9BA75BC63EB433EA440E265 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pluginterfacesupport.h; path = source/vst/hosting/pluginterfacesupport.h; sourceTree = SOURCE_ROOT; };
+		FEE32DD1FF964F228736A32F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/processdataslicer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = processdataslicer.h; path = source/vst/utility/processdataslicer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30AD0A6E48954CBC97AF0E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5761048739EB45A2832E27C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DD9E8F0ED641CD9AEF1303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16CB0814D02241D0AEF2D383 /* sdk_common */ = {
+			isa = PBXGroup;
+			children = (
+				3089B65F54B348449B07EC37 /* Source Files */,
+				F0B9FA2F34FC4D4B9E305549 /* Header Files */,
+				CF4EDCC49B014EE285B074D2 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk_common;
+			sourceTree = "<group>";
+		};
+		3089B65F54B348449B07EC37 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5962B403B86248DC99533486 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/commoniids.cpp */,
+				B134285B5AA842A2B53F4EE3 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.cpp */,
+				8E4C8CCB69C341DD99B33EC7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.cpp */,
+				A892A3E7ACA140A3A27671A5 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_linux.cpp */,
+				E47CB9B423CE40158B9FDD77 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */,
+				77CA100DCA764158BDB08DDD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */,
+				305D66AA8A584EB197B007CA /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */,
+				C355C6F763CC4CB1BD8F7159 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */,
+				698203A89F934A1D868174E8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */,
+				DC63AE27B73C4F67BAA50FE0 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		399235BF89294C45A74EB612 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				445417E39CDE4CBE86F3A054 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */,
+				AA41E5AB52DC4419B6EE4449 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */,
+				5E8F72DB09184AB49BB6D6DF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */,
+				CC0389D8DC8041D890434772 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.cpp */,
+				26994FBE2337447CAD689F07 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */,
+				9B5FAA9328E54486958DAE89 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */,
+				CC9BFCD3D5E8407AA85A0850 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */,
+				CE24C0C8FE664EABA1740AB8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */,
+				A47D824EAF7B4D8899248757 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4709CC2B2F0340BEB431FE90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4EE302044DC64900BEB237CE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				16CB0814D02241D0AEF2D383 /* sdk_common */,
+				B35720DC6597410CBD15EF0D /* sdk */,
+				A552C497C19F4A5AA0DBE1E5 /* sdk_hosting */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		711E4CC73C824ECF846BCC5C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9B84E2B5D0024DEF9F930528 /* CMake Rules */,
+				2BA3AF10384147099048F391 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9B84E2B5D0024DEF9F930528 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9DAF889DA69F421AA505E5FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A552C497C19F4A5AA0DBE1E5 /* sdk_hosting */ = {
+			isa = PBXGroup;
+			children = (
+				399235BF89294C45A74EB612 /* Source Files */,
+				DA87636EEE1D4A868E7B3091 /* Header Files */,
+				ABDCAB97DBCD466582E9D20C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk_hosting;
+			sourceTree = "<group>";
+		};
+		B35720DC6597410CBD15EF0D /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				D01D48EF6F014A0099E49900 /* Source Files */,
+				D80C1F09427A43C1BFFEC023 /* Header Files */,
+				D68D97108C4E4D9ABC8C1248 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/CMakeLists.txt */,
+			);
+			name = sdk;
+			sourceTree = "<group>";
+		};
+		B7EECA8689B747BAB057BD91 = {
+			isa = PBXGroup;
+			children = (
+				4EE302044DC64900BEB237CE /* Libraries */,
+				711E4CC73C824ECF846BCC5C /* ALL_BUILD */,
+				C7576E59A12F44E891B75D32 /* Products */,
+				9DAF889DA69F421AA505E5FC /* Frameworks */,
+				4709CC2B2F0340BEB431FE90 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		C7576E59A12F44E891B75D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				119DC666E56E4F46B2F58471 /* sdk */,
+				BDB3FCD09CA84301B4851F4E /* sdk_common */,
+				53DD38700B8B4F448B7DC056 /* sdk_hosting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01D48EF6F014A0099E49900 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				764E46871D334F66BAC57546 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.cpp */,
+				205B7F881ADB44BBB0AC86DB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.cpp */,
+				BA85BD4157EA42DAA5C6EC66 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.cpp */,
+				8192698F8B2044108BBDC0FE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.cpp */,
+				98C0F06827BD4BF78577F7C8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */,
+				8E034A81E911413CA81BFB81 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.cpp */,
+				EF22A7F6117C48328A956910 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.cpp */,
+				AD238EA0213240D3B3698C06 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */,
+				A88C508C07F149BD9048C1D0 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */,
+				2D7FE4B25A164C8E81A5AF9A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.cpp */,
+				1E233568FA6E49428FA7E001 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */,
+				C7BCB2B35E5B4D17919A3618 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */,
+				99BDC6CA18084E94AEBC0241 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */,
+				9C24BFCC4F4247A18C9E6FF6 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */,
+				832D38B0BAF0456994A20485 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */,
+				4C89E5BE02C84F439D7D7297 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.cpp */,
+				F457D7A5EE7B4208BE1828B8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D80C1F09427A43C1BFFEC023 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C681E92F7E0496A99DAC38E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.h */,
+				0C830FB7AD4D48D597BC97BF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.h */,
+				586C2693D0424FEF8EF880C7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.h */,
+				1808C8E4D0764F26B619C50F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory_constexpr.h */,
+				4FAFE9E0C510497596DC8C3A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/alignedalloc.h */,
+				AF76F7A3B36D49E99D3ADB78 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/audiobuffers.h */,
+				91CCEAFEE32648EC8382B381 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.h */,
+				DC47BBA056A14911977520D1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/memoryibstream.h */,
+				EC3E2D43301A4EBEA6C5FAE8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/processcontextrequirements.h */,
+				FEE32DD1FF964F228736A32F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/processdataslicer.h */,
+				DD4BEBAD4C7E4A66A9D25B7A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/ringbuffer.h */,
+				12328C3C0A4B4110BB2AFD39 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/rttransfer.h */,
+				702C81D8B72640E6B49D2ACD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/sampleaccurate.h */,
+				4D2C046744054C98BDC3FE8E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */,
+				CB7DA72CC3E045E1808111BD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.h */,
+				0571DF57755D4C6A979EF422 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.h */,
+				1C3F266CCD4F4907B7B30C22 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.h */,
+				DD266C65A6AD4235A8C14A56 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.h */,
+				087E72CE1EDA4F85B0CD0657 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.h */,
+				5F4509A8ACF6479AA1112D5C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbypassprocessor.h */,
+				05A03C4235254993A7B1F704 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.h */,
+				08623CABCDA5458BBFFDBF94 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.h */,
+				A2894DDDDFC94FD09C506401 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.h */,
+				3C7AF14EE71D4728949633D1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteventshelper.h */,
+				178ECB4D87464BB1AB9FEE7C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsthelpers.h */,
+				A068671991D041B4B833A3DF /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.h */,
+				E317A2AE572F4DAD8D7B7DB1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.h */,
+				9587B952AF784F5AB0AC693A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DA87636EEE1D4A868E7B3091 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA20FD3503DE42439C84DEED /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.h */,
+				C621F12645AD4E9387BBF8DE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.h */,
+				43CAB205DD9143A99E546616 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.h */,
+				DB4ABF115E7F47B9B6F8ACDD /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.h */,
+				A02B63CE2B20479CA7FD56DB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.h */,
+				F9BA75BC63EB433EA440E265 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.h */,
+				77900D5AC7CF45DDAEE11D5F /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.h */,
+				1847B5A22350430D842192A1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/optional.h */,
+				2B47F65E3A1345C6989B77B1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.h */,
+				6F4E5B7FD66343D1B70BE21A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/uid.h */,
+				D516752CB66A4036B51853D2 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/versionparser.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		F0B9FA2F34FC4D4B9E305549 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				73779550EB414CE7A2D5EDB5 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.h */,
+				A1BDC13D731642D482D366C7 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.h */,
+				A12B670000DD485583D5F940 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard.h */,
+				8E5386040D51467DBFADF097 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker.h */,
+				CCEDEE25CF574207940A0E81 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13C117CE1BFA4CA2AEF2D62D /* sdk_hosting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD24AC94F8C43EEB5CA5160 /* Build configuration list for PBXNativeTarget "sdk_hosting" */;
+			buildPhases = (
+				CA27F02E7FCC460D832DAAE1 /* Sources */,
+				30AD0A6E48954CBC97AF0E83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC2984FAD4A4035B32215C5 /* PBXTargetDependency */,
+				A144318842584426A7FE2EC0 /* PBXTargetDependency */,
+			);
+			name = sdk_hosting;
+			productName = sdk_hosting;
+			productReference = 53DD38700B8B4F448B7DC056 /* sdk_hosting */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9FCCE18181D34A919F4F955E /* sdk_common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D4B61E0FAB4576A824B66E /* Build configuration list for PBXNativeTarget "sdk_common" */;
+			buildPhases = (
+				95918B75FA3B4DC398AEAA97 /* Sources */,
+				A8DD9E8F0ED641CD9AEF1303 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BED1E2BF692A4556B205FF2F /* PBXTargetDependency */,
+			);
+			name = sdk_common;
+			productName = sdk_common;
+			productReference = BDB3FCD09CA84301B4851F4E /* sdk_common */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC2CB799B10149C4837D31BF /* sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336D82BC18EA44A09B3E3DA3 /* Build configuration list for PBXNativeTarget "sdk" */;
+			buildPhases = (
+				C9885ECBCF0E4D9ABFFF8ECA /* Sources */,
+				5761048739EB45A2832E27C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959ABD6FE8D0465398A23617 /* PBXTargetDependency */,
+				B6B1206AD6A740DCAC49B0B4 /* PBXTargetDependency */,
+			);
+			name = sdk;
+			productName = sdk;
+			productReference = 119DC666E56E4F46B2F58471 /* sdk */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81E29D8145EE4C4FAFD4B73B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 0A3362B3D803419F873FFE64 /* Build configuration list for PBXProject "smtg_public_sdk" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				96BD466A7167457E90A26F62 /* Debug */,
+				40113B10E76E467B86FF582C /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B7EECA8689B747BAB057BD91;
+			projectDirPath = /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk;
+			projectRoot = "";
+			targets = (
+				7392D262E57C4168A910D68C /* ALL_BUILD */,
+				74AEBB7C8C75486E8FD584C2 /* ZERO_CHECK */,
+				BC2CB799B10149C4837D31BF /* sdk */,
+				9FCCE18181D34A919F4F955E /* sdk_common */,
+				13C117CE1BFA4CA2AEF2D62D /* sdk_hosting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8194E74ABEFE2ED030A4658C /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/vst3sdk/public.sdk/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/vst3sdk/public.sdk
+  make -f /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/vst3sdk/public.sdk/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/vst3sdk/public.sdk
+  make -f /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/vst3sdk/public.sdk/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B382F372A7FFB2056776FEBB /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/vst3sdk/public.sdk/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/vst3sdk/public.sdk
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/vst3sdk/public.sdk
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95918B75FA3B4DC398AEAA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48A3C832CB647A5AFE6C0D8 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/commoniids.cpp */,
+				22E6C433F9CC45399AF5A620 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/openurl.cpp */,
+				2B99C301B98847B8B00ED84A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/readfile.cpp */,
+				F2CB18E4B1304E1B9E5DE96D /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_linux.cpp */,
+				A63610EB5D314CB3AC48456E /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_mac.mm */,
+				35894B5D02F442328298BE82 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/systemclipboard_win32.cpp */,
+				91E302BE4CEB467D98D3D177 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_linux.cpp */,
+				BADC874A8FB3458AB0F4D2D9 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_mac.mm */,
+				0C89CC2CE86C43AD9C4E6AAE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/threadchecker_win32.cpp */,
+				87DE7975C2D242B8999AACCB /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstpresetfile.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9885ECBCF0E4D9ABFFF8ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB4867903454997AED7FC7C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/common/pluginview.cpp */,
+				F209ACF0F09E48839DC678C6 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/moduleinit.cpp */,
+				BB6E95C6FB5B4DB8AF5C9D17 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/main/pluginfactory.cpp */,
+				A5DBF427A1694C8AB5A72EEA /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/dataexchange.cpp */,
+				6D2B05A124C24CCE94D3CB56 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */,
+				5A2870CD7C1A449C8252A590 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/systemtime.cpp */,
+				509E18FA67F84933B089BCAC /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/testing.cpp */,
+				2CDA9C962FD24F42992C78A1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/vst2persistence.cpp */,
+				98F52B1281434FE99F451EE3 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstaudioeffect.cpp */,
+				12AE1437DEE04B23BED64AFC /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstbus.cpp */,
+				2D4947F4218545D58ACA436B /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponent.cpp */,
+				46D469F21EF04B5E86A51398 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstcomponentbase.cpp */,
+				77E152FC8284446E8C783BF4 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vsteditcontroller.cpp */,
+				760B1CC4666D49D08F0BFBEA /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */,
+				F900320A17F0467F8BDB043B /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstnoteexpressiontypes.cpp */,
+				9E2A05E9A5DF4A898DF7BA6A /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstparameters.cpp */,
+				7E07F661B1C544FBBFD223D1 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstrepresentation.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA27F02E7FCC460D832DAAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1564FBC38C1843C5B58006C2 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/connectionproxy.cpp */,
+				89AF9E31178D4DF59A6C0468 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/eventlist.cpp */,
+				B421D9DDC26A4D7181119BE4 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/hostclasses.cpp */,
+				802C6E45845F4C0FB02916BE /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/module.cpp */,
+				B3A819CE8F364594B81DB319 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/parameterchanges.cpp */,
+				0BDC4F0B963E48729601831C /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/pluginterfacesupport.cpp */,
+				5876327799F94AF6BEBCC755 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.cpp */,
+				F6918544767841D496D03D29 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/utility/stringconvert.cpp */,
+				9077EE374C364A9E979EC692 /* /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/vstinitiids.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E70221F41544F0C97766A8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13C117CE1BFA4CA2AEF2D62D /* sdk_hosting */;
+			targetProxy = A4CD2D5124684BBFB7B4CA2A /* PBXContainerItemProxy */;
+		};
+		8C20D2E4788142BB8873DFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AEBB7C8C75486E8FD584C2 /* ZERO_CHECK */;
+			targetProxy = F5D170AB270748D8BD15C2F8 /* PBXContainerItemProxy */;
+		};
+		959ABD6FE8D0465398A23617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FCCE18181D34A919F4F955E /* sdk_common */;
+			targetProxy = BF3AF265174D43089EDEC51F /* PBXContainerItemProxy */;
+		};
+		A144318842584426A7FE2EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AEBB7C8C75486E8FD584C2 /* ZERO_CHECK */;
+			targetProxy = 35950603FBEF472D9EA4AE0E /* PBXContainerItemProxy */;
+		};
+		AEC2984FAD4A4035B32215C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FCCE18181D34A919F4F955E /* sdk_common */;
+			targetProxy = 4D632A63EF86477889EE40F9 /* PBXContainerItemProxy */;
+		};
+		B6B1206AD6A740DCAC49B0B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AEBB7C8C75486E8FD584C2 /* ZERO_CHECK */;
+			targetProxy = 2AC337B4C591471391438008 /* PBXContainerItemProxy */;
+		};
+		BBDE8FD9BAF04EB1840BDB46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FCCE18181D34A919F4F955E /* sdk_common */;
+			targetProxy = 17693967C73343E3965B9F63 /* PBXContainerItemProxy */;
+		};
+		BED1E2BF692A4556B205FF2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AEBB7C8C75486E8FD584C2 /* ZERO_CHECK */;
+			targetProxy = 5F88569F08FF4F56B56D9E90 /* PBXContainerItemProxy */;
+		};
+		DAB05A176E9C4BF2926BE6B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2CB799B10149C4837D31BF /* sdk */;
+			targetProxy = 127835C9CAA7425884317D62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08286F07013A46F09B8634FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/build;
+			};
+			name = Release;
+		};
+		18ADE4598C2947CD913E5254 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/base/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/build/sdk.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F59F5C671DC4384B667DE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SYMROOT = /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/build;
+			};
+			name = Debug;
+		};
+		564132046B8A459FA6CC5B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/base/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_common;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/build/sdk_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		58BB7132E59E45688F6EA78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/base/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_hosting;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/build/sdk_hosting.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		802F743809E348E3B1F63BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8F5C33A56A064FD39AD53A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A0FE9F1FF164426DA723771D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/base/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/build/sdk.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B08C984EFE6E406792834626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E2498E5C99A7431C9FE5E239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/base/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_hosting;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/build/sdk_hosting.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F16E134CB590452BABCEFDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/base/..,/Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' -fvisibility=hidden -fvisibility-inlines-hidden '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sdk_common;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/build/build/sdk_common.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F4FA0B99668144C489AB22E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A3362B3D803419F873FFE64 /* Build configuration list for PBXProject "smtg_public_sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F59F5C671DC4384B667DE51 /* Debug */,
+				08286F07013A46F09B8634FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0C60E5921C7F48F9973DE2B3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802F743809E348E3B1F63BCD /* Debug */,
+				F4FA0B99668144C489AB22E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		336D82BC18EA44A09B3E3DA3 /* Build configuration list for PBXNativeTarget "sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FE9F1FF164426DA723771D /* Debug */,
+				18ADE4598C2947CD913E5254 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87D4B61E0FAB4576A824B66E /* Build configuration list for PBXNativeTarget "sdk_common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564132046B8A459FA6CC5B30 /* Debug */,
+				F16E134CB590452BABCEFDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCD24AC94F8C43EEB5CA5160 /* Build configuration list for PBXNativeTarget "sdk_hosting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58BB7132E59E45688F6EA78F /* Debug */,
+				E2498E5C99A7431C9FE5E239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBEC7F24D2F54555AA9B82E9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08C984EFE6E406792834626 /* Debug */,
+				8F5C33A56A064FD39AD53A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81E29D8145EE4C4FAFD4B73B /* Project object */;
+}

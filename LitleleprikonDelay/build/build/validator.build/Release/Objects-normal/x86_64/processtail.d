@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/testsuite/processing/processtail.cpp \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/testsuite/processing/processtail.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/testsuite/processing/process.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/hosting/processdata.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/vst/ivstcomponent.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/ipluginbase.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/funknown.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/fplatform.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/ftypes.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/smartpointer.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/fstrdefs.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/vst/vsttypes.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/falignpush.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/falignpop.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/vst/vstspeaker.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/public.sdk/source/vst/testsuite/testbase.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/test/itest.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/vst/ivstparameterchanges.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/vst/ivsttestplugprovider.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/base/istringresult.h \
+  /Users/litleleprikon/Documents/projects/github.com/steinbergmedia/vst3sdk/pluginterfaces/vst/ivsteditcontroller.h

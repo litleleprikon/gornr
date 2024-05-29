@@ -1,0 +1,945 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Darwin - 23.2.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      ComputeTargetDependencyGraph
+      note: Building targets in dependency order
+      note: Target dependency graph (1 target)
+          Target 'CompilerIdC' in project 'CompilerIdC' (no dependencies)
+      
+      GatherProvisioningInputs
+      
+      CreateBuildDescription
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+      
+      Build description signature: df7198d9344a203a0fc6fe04309f98f0
+      Build description path: /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/./XCBuildData/df7198d9344a203a0fc6fe04309f98f0.xcbuilddata
+      CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+      
+      ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.xcodeproj
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache
+      
+      CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/EagerLinkingTBDs/Debug
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.xcodeproj
+          builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/EagerLinkingTBDs/Debug
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent
+      
+      ProcessProductPackagingDER /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          /usr/bin/derq query -f xml -i /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der --raw
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+      -target arm64-apple-macos10.13 -fpascal-strings -Os -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -g '-fvisibility=hidden' -iquote /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/include -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+      
+      CompileC /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body @/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CMakeCCompilerId.c -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+      
+      Ld /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC normal (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos10.13 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Os -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          /bin/sh -c /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=arm64
+      
+      CodeSign /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          
+          Signing Identity:     "-"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent --timestamp\\=none --generate-entitlement-der /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC
+      
+      RegisterExecutionPolicyException /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC
+          builtin-RegisterExecutionPolicyException /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdC' from project 'CompilerIdC')
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Command line invocation:
+          /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+      
+      User defaults from command line:
+          IDEPackageSupportUseBuiltinSCM = YES
+      
+      ComputeTargetDependencyGraph
+      note: Building targets in dependency order
+      note: Target dependency graph (1 target)
+          Target 'CompilerIdCXX' in project 'CompilerIdCXX' (no dependencies)
+      
+      GatherProvisioningInputs
+      
+      CreateBuildDescription
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c++ -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null
+      
+      ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+      
+      Build description signature: 50a3b9fcadce5c26df4d2a83393bffe8
+      Build description path: /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/./XCBuildData/50a3b9fcadce5c26df4d2a83393bffe8.xcbuilddata
+      CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+      
+      ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache
+      
+      CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/EagerLinkingTBDs/Debug
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.xcodeproj
+          builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/EagerLinkingTBDs/Debug
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist
+      
+      ProcessProductPackaging "" /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          
+          Entitlements:
+          
+          {
+          "com.apple.application-identifier" = "";
+          "com.apple.security.get-task-allow" = 1;
+      }
+          
+          builtin-productPackagingUtility -entitlements -format xml -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent
+      
+      ProcessProductPackagingDER /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          /usr/bin/derq query -f xml -i /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der --raw
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+      -target arm64-apple-macos10.13 -fpascal-strings -Os -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -g '-fvisibility=hidden' -fvisibility-inlines-hidden -iquote /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/include -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+      
+      CompileC /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body @/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+      
+      Ld /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX normal (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos10.13 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Os -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX
+      
+      WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      
+      PhaseScriptExecution Run\\ Script /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          /bin/sh -c /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+      GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+      ARCHS=arm64
+      
+      CodeSign /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          
+          Signing Identity:     "-"
+          
+          /usr/bin/codesign --force --sign - --entitlements /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent --timestamp\\=none --generate-entitlement-der /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX
+      
+      RegisterExecutionPolicyException /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+          cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX
+          builtin-RegisterExecutionPolicyException /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX
+      
+      warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+      ** BUILD SUCCEEDED **
+      
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms"
+      binary: "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.13"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9e8e4 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9e8e4 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_9e8e4' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+        
+        Build description signature: 720b453c35773653d869992c38ab4970
+        Build description path: /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/XCBuildData/720b453c35773653d869992c38ab4970.xcbuilddata
+        CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build
+        
+        CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache
+        
+        CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms
+            write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp
+        -target arm64-apple-macos10.13 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -g -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/include -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources-normal/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug
+        
+        WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms
+            write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList
+        
+        CompileC /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -v -Wl,-v @/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-macos10.13
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.13.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/include -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources-normal/arm64 -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources/arm64 -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.2.0
+        ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/include"
+        ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources-normal/arm64"
+        ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources/arm64"
+        ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4 normal (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos10.13 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_dependency_info.dat -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-macos10.13
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -reproducible -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList -object_path_lto /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:45:29 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug
+        	/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift
+        Framework search paths:
+        	/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug
+        	/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        
+        RegisterExecutionPolicyException /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4 (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms
+            builtin-RegisterExecutionPolicyException /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9e8e4 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: [Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9e8e4 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [ComputeTargetDependencyGraph]
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [note: Target dependency graph (1 target)]
+        ignore line: [    Target 'cmTC_9e8e4' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+        ignore line: []
+        ignore line: [GatherProvisioningInputs]
+        ignore line: []
+        ignore line: [CreateBuildDescription]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details]
+        ignore line: []
+        ignore line: [Build description signature: 720b453c35773653d869992c38ab4970]
+        ignore line: [Build description path: /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/XCBuildData/720b453c35773653d869992c38ab4970.xcbuilddata]
+        ignore line: [CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug]
+        ignore line: []
+        ignore line: [ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms]
+        ignore line: [    write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp]
+        ignore line: [-target arm64-apple-macos10.13 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -g -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/include -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources-normal/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms]
+        ignore line: [    write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList]
+        ignore line: []
+        ignore line: [CompileC /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -v -Wl -v @/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/7187679823f38a2a940e0043cdf9d637-common-args.resp -MMD -MT dependencies -MF /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-macos10.13]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.13.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/include -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources-normal/arm64 -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources/arm64 -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.2.0]
+        ignore line: [ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources-normal/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4 normal (in target 'cmTC_9e8e4' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos10.13 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_dependency_info.dat -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-macos10.13]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -reproducible -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList -object_path_lto /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -reproducible -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList -object_path_lto /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug -reproducible -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList -object_path_lto /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-no_deduplicate] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [11.0.0] ==> ignore
+          arg [14.4] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk] ==> ignore
+          arg [-O0] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug/cmTC_9e8e4] ==> ignore
+          arg [-L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug] ==> dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug]
+          arg [-reproducible] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o] ==> obj [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_dependency_info.dat] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug] ==> ignore
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug;/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug;/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug], skipping non-system directory
+        collapse library dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse library dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug], skipping non-system directory
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse framework dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/Debug], skipping non-system directory
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-6E1Wms/build/cmTC_9e8e4.build/Debug/Objects-normal/arm64/cmTC_9e8e4_lto.o]
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 15:45:29 Feb  3 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4"
+      binary: "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.13"
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4'
+        
+        Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_13be7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        Command line invocation:
+            /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_13be7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+        
+        User defaults from command line:
+            HideShellScriptEnvironment = YES
+            IDEPackageSupportUseBuiltinSCM = YES
+        
+        ComputeTargetDependencyGraph
+        note: Building targets in dependency order
+        note: Target dependency graph (1 target)
+            Target 'cmTC_13be7' in project 'CMAKE_TRY_COMPILE' (no dependencies)
+        
+        GatherProvisioningInputs
+        
+        CreateBuildDescription
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c++ -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null
+        
+        ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+        
+        Build description signature: 7057ef3f8fbac6fbc76ee89228d71a51
+        Build description path: /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/XCBuildData/7057ef3f8fbac6fbc76ee89228d71a51.xcbuilddata
+        CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build
+        
+        ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/CMAKE_TRY_COMPILE.xcodeproj
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache
+        
+        CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug
+        
+        CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/CMAKE_TRY_COMPILE.xcodeproj
+            builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug
+        
+        WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4
+            write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList
+        
+        WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4
+            write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+        -target arm64-apple-macos10.13 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -g -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/include -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources-normal/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug
+        
+        CompileC /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -v -Wl,-v @/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-macos10.13
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.13.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/include -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources-normal/arm64 -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources/arm64 -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4 -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.2.0
+        ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/include"
+        ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources-normal/arm64"
+        ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources/arm64"
+        ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug (framework directory)
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        
+        Ld /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7 normal (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos10.13 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_dependency_info.dat -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-macos10.13
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -reproducible -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList -object_path_lto /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:45:29 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug
+        	/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift
+        Framework search paths:
+        	/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug
+        	/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        
+        RegisterExecutionPolicyException /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7 (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')
+            cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4
+            builtin-RegisterExecutionPolicyException /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7
+        
+        ** BUILD SUCCEEDED **
+        
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_13be7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: [Command line invocation:]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_13be7 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+        ignore line: []
+        ignore line: [User defaults from command line:]
+        ignore line: [    HideShellScriptEnvironment = YES]
+        ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+        ignore line: []
+        ignore line: [ComputeTargetDependencyGraph]
+        ignore line: [note: Building targets in dependency order]
+        ignore line: [note: Target dependency graph (1 target)]
+        ignore line: [    Target 'cmTC_13be7' in project 'CMAKE_TRY_COMPILE' (no dependencies)]
+        ignore line: []
+        ignore line: [GatherProvisioningInputs]
+        ignore line: []
+        ignore line: [CreateBuildDescription]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c++ -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -x c -c /dev/null]
+        ignore line: []
+        ignore line: [ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details]
+        ignore line: []
+        ignore line: [Build description signature: 7057ef3f8fbac6fbc76ee89228d71a51]
+        ignore line: [Build description path: /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/XCBuildData/7057ef3f8fbac6fbc76ee89228d71a51.xcbuilddata]
+        ignore line: [CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build]
+        ignore line: []
+        ignore line: [ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug]
+        ignore line: []
+        ignore line: [CreateBuildDirectory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/CMAKE_TRY_COMPILE.xcodeproj]
+        ignore line: [    builtin-create-build-directory /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4]
+        ignore line: [    write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList]
+        ignore line: []
+        ignore line: [WriteAuxiliaryFile /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4]
+        ignore line: [    write-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp]
+        ignore line: [-target arm64-apple-macos10.13 -fpascal-strings -O0 '-DCMAKE_INTDIR="Debug"' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -g -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/include -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources-normal/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources/arm64 -I/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug]
+        ignore line: []
+        ignore line: [CompileC /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -fmessage-length\\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\\=0 -fno-color-diagnostics -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -v -Wl -v @/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-macos10.13]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx10.13.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0 -dependency-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -ivfsstatcache /var/folders/vv/pjnw36qd1szfcvfyt5j7nmhm0000gn/C/com.apple.DeveloperTools/15.3-15E204a/Xcode/SDKStatCaches.noindex/macosx14.4-23E208-13f6e737bddbb37f317b3579f3535bf5.sdkstatcache -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -D "CMAKE_INTDIR=\\"Debug\\"" -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/include -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources-normal/arm64 -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources/arm64 -I /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4 -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.2.0]
+        ignore line: [ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/include"]
+        ignore line: [ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources-normal/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources/arm64"]
+        ignore line: [ignoring nonexistent directory "/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/DerivedSources"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug (framework directory)]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: []
+        ignore line: [Ld /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7 normal (in target 'cmTC_13be7' from project 'CMAKE_TRY_COMPILE')]
+        ignore line: [    cd /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4]
+        ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos10.13 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_dependency_info.dat -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-macos10.13]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -reproducible -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList -object_path_lto /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug]
+                  to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -reproducible -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList -object_path_lto /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 14.4 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -O0 -o /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7 -L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug -reproducible -filelist /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList -object_path_lto /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a -F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-no_deduplicate] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [11.0.0] ==> ignore
+          arg [14.4] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk] ==> ignore
+          arg [-O0] ==> ignore
+          arg [-o] ==> ignore
+          arg [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug/cmTC_13be7] ==> ignore
+          arg [-L/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug] ==> dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug]
+          arg [-reproducible] ==> ignore
+          arg [-filelist] ==> ignore
+          arg [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7.LinkFileList] ==> ignore
+          arg [-object_path_lto] ==> ignore
+          arg [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o] ==> obj [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o]
+          arg [-no_deduplicate] ==> ignore
+          arg [-v] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dependency_info] ==> ignore
+          arg [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_dependency_info.dat] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [-F/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug] ==> ignore
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug;/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug;/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug], skipping non-system directory
+        collapse library dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse library dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug], skipping non-system directory
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/EagerLinkingTBDs/Debug], skipping non-system directory
+        collapse framework dir [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug] ==> [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/Debug], skipping non-system directory
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: [/Users/litleleprikon/Documents/projects/github.com/litleleprikon/gornr/LitleleprikonDelay/CMakeFiles/CMakeScratch/TryCompile-Lq4Wa4/build/cmTC_13be7.build/Debug/Objects-normal/arm64/cmTC_13be7_lto.o]
+        implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.29.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 15:45:29 Feb  3 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+...
